@@ -1,0 +1,142 @@
+@media screen and (max-width: 768px) {
+	html,
+	body,
+	#app {
+		background: #f3f7f2;
+		font-size: 13px;
+	}
+
+	input,
+	textarea,
+	[contenteditable='true'] {
+		-webkit-user-select: text;
+		user-select: text;
+	}
+
+	.layout-container {
+		.layout-aside-mobile {
+			top: 0;
+			bottom: 0;
+			width: min(78vw, 320px) !important;
+			height: 100dvh !important;
+			left: calc(-1 * min(78vw, 320px));
+			z-index: 3001;
+			box-shadow: 12px 0 28px rgba(31, 78, 39, 0.2);
+			border-top-right-radius: 14px;
+			border-bottom-right-radius: 14px;
+			overflow: hidden;
+		}
+
+		.layout-aside-mobile-close {
+			left: calc(-1 * min(78vw, 320px));
+		}
+
+		.layout-aside-mobile-open {
+			left: 0;
+		}
+
+		.layout-aside-mobile-mode {
+			z-index: 3000;
+			background: rgba(11, 31, 23, 0.42);
+			backdrop-filter: blur(2px);
+		}
+
+		.layout-navbars-breadcrumb-index {
+			height: 48px;
+			padding-right: 6px;
+			position: sticky;
+			top: 0;
+			z-index: 100;
+		}
+
+		.layout-navbars-breadcrumb-icon {
+			width: 50px !important;
+			font-size: 20px !important;
+			flex: 0 0 50px;
+		}
+
+		.layout-navbars-breadcrumb-hide,
+		.layout-navbars-tagsview {
+			display: none !important;
+		}
+
+		.layout-navbars-breadcrumb-user {
+			flex: 0 0 auto !important;
+			padding-right: 8px !important;
+		}
+
+		.layout-navbars-breadcrumb-user-icon {
+			display: none !important;
+		}
+
+		.layout-navbars-breadcrumb-user-link {
+			max-width: 42px;
+			overflow: hidden;
+		}
+
+		.layout-main {
+			background: #f3f7f2;
+		}
+
+		.layout-padding {
+			padding: 10px !important;
+		}
+
+		.layout-padding-view {
+			border: 0 !important;
+			border-radius: 10px !important;
+			box-shadow: none;
+		}
+	}
+
+	.el-card {
+		border-radius: 10px !important;
+	}
+
+	.el-card__body {
+		padding: 12px !important;
+	}
+
+	.el-button {
+		min-height: 40px;
+	}
+
+	.el-select,
+	.el-input,
+	.el-date-editor,
+	.el-cascader {
+		width: 100% !important;
+	}
+
+	.el-slider {
+		width: 100% !important;
+	}
+
+	.el-form-item {
+		margin-bottom: 14px;
+	}
+
+	.el-dialog {
+		width: calc(100vw - 24px) !important;
+		margin: 8vh auto 0 !important;
+	}
+
+	.el-message {
+		min-width: auto !important;
+		width: calc(100vw - 28px) !important;
+	}
+
+	.el-table {
+		font-size: 12px;
+	}
+
+	.el-table .cell {
+		padding: 0 6px;
+		line-height: 18px;
+	}
+
+	.el-pagination {
+		justify-content: center;
+		white-space: normal;
+	}
+}

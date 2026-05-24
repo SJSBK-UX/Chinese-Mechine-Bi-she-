@@ -1,0 +1,42 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Frontend
+MedicineDetection_vue/node_modules/
+MedicineDetection_vue/dist/
+MedicineDetection_vue/*.log
+MedicineDetection_vue/*.out
+MedicineDetection_vue/*.err
+MedicineDetection_vue/*.zip
+MedicineDetection_vue/*.tar.gz
+
+# Spring Boot
+MedicineDetection_springboot/target/
+MedicineDetection_springboot/files/
+MedicineDetection_springboot/*.log
+MedicineDetection_springboot/*.out
+MedicineDetection_springboot/*.err
+
+# Flask
+MedicineDetection_flask/.venv/
+MedicineDetection_flask/pythonProject/.venv/
+MedicineDetection_flask/__pycache__/
+MedicineDetection_flask/**/__pycache__/
+MedicineDetection_flask/runs/
+MedicineDetection_flask/.ultralytics/
+MedicineDetection_flask/*.log
+MedicineDetection_flask/*.out
+MedicineDetection_flask/*.err
+
+# Android
+MedicineDetection_mobile_app/android_webview/.gradle/
+MedicineDetection_mobile_app/android_webview/.idea/
+MedicineDetection_mobile_app/android_webview/app/build/
+MedicineDetection_mobile_app/android_webview/local.properties
+
+# OS / temp
+Thumbs.db
+.DS_Store
+*.tmp
